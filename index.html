@@ -3,9 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <title>Skinderella – Piercing Studio, Stapleford</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: 'Arial Rounded MT Bold', 'Segoe UI', sans-serif;
+      font-family: 'Roboto', sans-serif;
       background: #182849;
       color: #fff;
       margin: 0;
@@ -13,11 +14,8 @@
     }
 
     header {
-      background: url('logo.png') no-repeat center/contain;
-      background-size: contain;
-      background-position: center;
-      background-repeat: no-repeat;
-      height: 220px;
+      text-align: center;
+      padding: 20px;
     }
 
     nav {
@@ -45,7 +43,7 @@
 
     h1, h2 {
       color: #ffd700;
-      font-family: 'Arial Rounded MT Bold', sans-serif;
+      font-family: 'Fredoka One', cursive;
     }
 
     table {
@@ -90,11 +88,22 @@
       margin-top: 20px;
       border-radius: 10px;
     }
+
+    .logo img {
+      display: block;
+      max-width: 280px;
+      margin: 0 auto;
+      border-radius: 16px;
+    }
   </style>
 </head>
 <body>
 
-  <header></header>
+  <header>
+    <a href="#about" class="logo">
+      <img src="logo.png" alt="Skinderella Logo">
+    </a>
+  </header>
 
   <nav>
     <a href="#about">About</a>
@@ -135,7 +144,6 @@
       <tr><td>Snug</td><td>£25</td></tr>
       <tr><td>Flat</td><td>£25</td></tr>
       <tr><td>Allergy / Shen Men</td><td>£25</td></tr>
-
       <tr><td rowspan="9">Face</td><td>Nose</td><td>£30</td></tr>
       <tr><td>Eyebrow / Anti-eyebrow / Bridge</td><td>£30</td></tr>
       <tr><td>Lip / Vertical Lip / Medusa</td><td>£30</td></tr>
@@ -145,11 +153,9 @@
       <tr><td>Septum</td><td>£35</td></tr>
       <tr><td>Tongue</td><td>£35</td></tr>
       <tr><td>Cheeks</td><td>£40</td></tr>
-
       <tr><td rowspan="3">Body</td><td>Navel</td><td>£30</td></tr>
       <tr><td>Surface</td><td>£30</td></tr>
       <tr><td>Dermal</td><td>£35 each, £50 for 2, £60 for 2 (extras)</td></tr>
-
       <tr><td rowspan="4">18+ Intimate</td><td>Hood</td><td>£40</td></tr>
       <tr><td>Labia</td><td>£40</td></tr>
       <tr><td>Pa...</td><td>£50</td></tr>
@@ -187,3 +193,4 @@
 
 </body>
 </html>
+
