@@ -95,7 +95,17 @@
       margin: 0 auto;
       border-radius: 16px;
     }
+
+    .fb-page {
+      margin-top: 20px;
+    }
   </style>
+
+  <!-- Facebook SDK -->
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous"
+    src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v19.0" nonce="abc123">
+  </script>
 </head>
 <body>
 
@@ -183,6 +193,22 @@
       <a href="https://instagram.com/skinderellastapleford" target="_blank">Instagram</a>
     </div>
 
+    <!-- Facebook Feed Embed -->
+    <div class="fb-page"
+      data-href="https://www.facebook.com/skinderellastapleford"
+      data-tabs="timeline"
+      data-width="500"
+      data-height=""
+      data-small-header="false"
+      data-adapt-container-width="true"
+      data-hide-cover="false"
+      data-show-facepile="true">
+      <blockquote cite="https://www.facebook.com/skinderellastapleford" class="fb-xfbml-parse-ignore">
+        <a href="https://www.facebook.com/skinderellastapleford">Skinderella</a>
+      </blockquote>
+    </div>
+
+    <!-- Google Map -->
     <iframe
       src="https://www.google.com/maps?q=171+Derby+Road,+Stapleford,+Nottingham,+NG9+7AS&output=embed">
     </iframe>
