@@ -16,26 +16,42 @@
     header {
       text-align: center;
       padding: 20px;
+    }
+
+    .logo img {
+      display: block;
+      max-width: 280px;
+      margin: 0 auto;
+      border-radius: 16px;
+    }
+
+    nav {
       background: #ff3380;
+      padding: 12px;
+      text-align: center;
     }
 
-    header h1 {
-      font-family: 'Fredoka One', cursive;
-      color: #ffd700;
-      margin: 0;
+    nav a {
+      color: #fff;
+      margin: 0 20px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1em;
     }
 
-    .fb-container {
+    section {
       max-width: 900px;
       margin: 40px auto;
-      background: #24365c;
       padding: 20px;
+      background: #24365c;
       border-radius: 12px;
       box-shadow: 0 0 15px rgba(0,0,0,0.3);
     }
 
-    .fb-page {
-      margin-top: 20px;
+    h1 {
+      color: #ffd700;
+      font-family: 'Fredoka One', cursive;
+      text-align: center;
     }
 
     footer {
@@ -45,24 +61,40 @@
       padding: 20px;
       margin-top: 50px;
     }
+
+    .fb-page {
+      margin-top: 20px;
+      width: 100% !important;
+    }
   </style>
 
   <div id="fb-root"></div>
   <script async defer crossorigin="anonymous"
     src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v19.0"
-    nonce="abc123"></script>
+    nonce="skinderella123"></script>
 </head>
 <body>
 
   <header>
-    <h1>Skinderella Facebook Feed</h1>
+    <a href="index.html" class="logo">
+      <img src="logo.png" alt="Skinderella Logo">
+    </a>
   </header>
 
-  <div class="fb-container">
+  <nav>
+    <a href="index.html#about">About</a>
+    <a href="index.html#services">Services</a>
+    <a href="index.html#prices">Prices</a>
+    <a href="index.html#contact">Contact</a>
+    <a href="facebook.html">Facebook</a>
+  </nav>
+
+  <section>
+    <h1>Facebook Feed</h1>
     <div class="fb-page"
       data-href="https://www.facebook.com/skinderellastapleford"
       data-tabs="timeline"
-      data-width="500"
+      data-width="850"
       data-height=""
       data-small-header="false"
       data-adapt-container-width="true"
@@ -72,7 +104,7 @@
         <a href="https://www.facebook.com/skinderellastapleford">Skinderella</a>
       </blockquote>
     </div>
-  </div>
+  </section>
 
   <footer>
     <p>© 2025 Skinderella – Piercing Studio, Stapleford</p>
